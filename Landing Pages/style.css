@@ -1,0 +1,44 @@
+.tickercontainer{margin:0;padding:0;overflow:hidden;text-align:center}
+.tickercontainer .mask{position:relative;width:100%;overflow:hidden;overflow:hidden}
+ul.newsticker{position:relative;list-style-type:none;margin:0;padding:0;overflow:hidden;display:flex}
+ul.newsticker li{margin:0;font-size:12px;padding:0 25px 0 0;white-space:nowrap}
+ul.er-controls{list-style:none;display:inline-block;padding:0}
+ul.er-controls>li{display:inline-block;padding:0 10px;background:#f0f0f0;margin:5px;border-radius:5px;height:40px;line-height:40px}
+ul.er-controls>li:hover{background:#f5f5f5;cursor:pointer}
+.announcement-outer-container{background-color:#221c3e;padding:6px 0;color:#fff;font-family:'latobold'}
+.announcement-container{display:flex;align-items:center;font-size:14px}
+.announcement-container>[data-section="date"]{flex-basis:30%;display:flex;justify-content:space-between;align-items:center;padding-right:10px}
+.announcement-container>[data-section="date"] [data-icon="news"]{display:inline-block;height:25px;width:25px;background:center no-repeat;background-size:contain;background-image:var(--image-src)}
+.announcement-container>[data-section="announcements"]{flex-basis:70%;background-color:#090710;border-radius:20px;padding:5px 25px;overflow:hidden}
+.home-progressive-jackpot{background:center no-repeat;background-size:contain;background-image:var(--image-src);font-family:'Open24DisplaySt';font-size:70px;color:#fff;text-align:center;padding:45px 0 55px 275px}
+.home-progressive-jackpot .jackpot-currency{color:#894bc8;margin-right:10px;display:inline-block;text-align:right}
+.home-progressive-jackpot [id]{display:inline-block;text-align:left;width:45%}
+.home-outer-container{padding-top:20px;padding-bottom:20px}
+.home-inner-container{background-color:rgba(22,18,40,.83);padding:30px;border-radius:30px}
+.popular-game-title-container{display:flex;align-items:center;padding:10px;margin-top:20px;color:#fff}
+.popular-game-title-container .title{font-size:20px;display:flex;align-items:center}
+.popular-game-title-container .title i{display:inline-block;height:24px;width:25px;background:center no-repeat;background-size:contain;margin-right:10px}
+.popular-game-title-container .title i[data-icon]{background-image:var(--image-src)}
+.popular-game-title-container>i{border-bottom:2px solid #451e58;border-top:2px solid #0d0d0d;flex-grow:1;margin:0 15px}
+.popular-game-title-container a{display:inline-block;padding:5px 30px;border-radius:25px;font-size:15px;background-color:#4e3c69;color:#fff}
+.popular-game-title-container+.game-list{margin-top:5px}
+.download-apk-container{background:var(--image-src);background-size:cover;overflow:hidden}
+.download-apk-container .popup-modal[data-title] .modal-title:before{content:none}
+.download-apk-container .popup-modal .modal-header h4{font-size:24px}
+.download-apk-container .popup-modal .modal-body img{height:20px;width:20px;margin-right:5px;filter:contrast(0)}
+.download-apk-container .popup-modal .modal-body h5{font-size:18px;text-transform:uppercase}
+.download-apk-container .popup-modal .modal-body ol{list-style:decimal;padding-left:5px}
+.download-apk{display:flex;align-items:center;color:#fff}.download-apk>div{flex-basis:50%;opacity:0;transition:all 1s ease}
+.download-apk>div:nth-child(1){transform:translateX(-100%)}.download-apk>div:nth-child(2){transform:translateX(100%)}
+.download-apk h2{text-transform:uppercase;font-weight:100;font-size:38px;margin:0;font-weight:700;font-size:65px;margin-bottom:10px}
+.download-apk h2 span{display:block;color:#d40082}.download-apk h3{text-transform:uppercase;font-size:32px;font-weight:100;margin:0;margin-bottom:10px}
+.download-apk h4{font-weight:100;margin:0;margin-bottom:15px;width:315px}.download-apk-info{display:flex;justify-content:space-between;margin:25px 0}
+.download-apk-info .download-apk-section{flex-basis:50%}.download-apk-section{display:flex;justify-content:flex-start;font-size:16px}
+.download-apk-section i{color:#f69c00;font-style:normal}.download-apk-qr-code{margin-right:10px}.download-apk-qr-code img{max-width:94px}
+.download-apk-detail{text-align:left;font-size:14px;display:flex;flex-direction:column;justify-content:space-around;text-align:center}
+.standard-container-with-sidebar .standard-form-content .download-apk-container{margin-top:30px}.standard-container-with-sidebar 
+.standard-form-content .download-apk-container .download-apk h2{font-size:35px}
+.standard-container-with-sidebar .standard-form-content .download-apk-container .download-apk h3{font-size:20px}
+.standard-container-with-sidebar .standard-form-content .download-apk-container .download-apk h4{font-size:16px}
+.standard-container-with-sidebar .standard-form-content .download-apk-container .download-apk-detail{font-size:12px}
+.download-popup-modal .modal-body img{height:20px;width:20px;margin-right:5px;filter:contrast(0)}
