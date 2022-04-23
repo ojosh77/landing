@@ -17,3 +17,4 @@ https://rtplivebosswin.netlify.app/
 https://bosswin168.ink/
 https://bosswin168.shop/
 https://bosswin168new.com/
+https://www.marifetane.com/
